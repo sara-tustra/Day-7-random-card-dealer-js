@@ -2,7 +2,7 @@ let cardValue = document.querySelector('.cardValue');
 let suit = document.querySelectorAll('.suit');
 let newCard = document.querySelector('.button');
 
-let possibleCardValues = ['1','2','3','4','5','6','7','8','9','10','<img class="image" src="images/king.png" alt="">','<img class="image" src="images/queen.jpeg" alt="">','J',]
+let possibleCardValues = ['A','1','2','3','4','5','6','7','8','9','10','<img class="image" src="images/king.png" alt="">','<img class="image" src="images/queen.jpeg" alt="">','J',]
 let possibleSuitValues = ['♦','♥','♠','♣'];
 
 function cambiarCarta () {
